@@ -4,6 +4,7 @@ font-size: 25px;
 
 }
 
+
 .flex{
     display:flex;
     flex-flow: row wrap;
@@ -26,21 +27,22 @@ font-size: 25px;
 
 table{
     margin:auto;
+    border:collapse;
 }
 
 
-.tableContainer{
+.tableCont{
     display:flex;
     justify-content: center;
   
 }
-.tableContainer table{
+.tableCont table{
     table-layout: fixed;
     border-collapse: collapse;
    border:2px solid #344861;;
   
 }
-.tableContainer .cell{
+.tableCont .cell{
     width: 60px;
     box-sizing: border-box;
     height:60px;
@@ -50,25 +52,25 @@ table{
    font-family: Source Sans Pro,sans-serif;
 }
 
-.tableContainer td :hover{
+.tableCont td :hover{
     background-color: #BBDEFB !important;
 }
 
-.tableContainer td{
+.tableCont td{
     padding:0;
     border:1px solid #bec6d4;
 
 }
-.tableContainer tr{
+.tableCont tr{
     padding:0;
 }
-.tableContainer .thickbottom{
+.tableCont .thickbottom{
     border-bottom:2px solid #344861;
 }
-.tableContainer .thickright{
+.tableCont .thickright{
     border-right:2px solid #344861;
 }
-.valContainer{
+.validationContainer{
     display:flex;
     justify-content: center;
     padding:30px;
