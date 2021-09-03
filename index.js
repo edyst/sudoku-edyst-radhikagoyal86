@@ -8,14 +8,14 @@ function restrictAlphabets(e) {
 }
 var table = document.querySelector('.table');
 var easy = [[2,null,5,null,null,9,null,null,4],
-[null,null,null,null,null,null,3,null,7],
-[7,null,null,8,5,6,null,1,null],
-[4,5,null,7,null,null,null,null,null],
-[null,null,9,null,null,null,1,null,null],
-[null,null,null,null,null,2,null,8,5],
-[null,2,null,4,1,8,null,null,6],
-[6,null,8,null,null,null,null,null,null],
-[1,null,null,2,null,null,7,null,8]];
+            [null,null,null,null,null,null,3,null,7],
+            [7,null,null,8,5,6,null,1,null],
+            [4,5,null,7,null,null,null,null,null],
+            [null,null,9,null,null,null,1,null,null],
+            [null,null,null,null,null,2,null,8,5],
+            [null,2,null,4,1,8,null,null,6],
+            [6,null,8,null,null,null,null,null,null],
+            [1,null,null,2,null,null,7,null,8]];
 
 var easybutton = document.querySelector(".easy");
 window.addEventListener("load",(e)=>{
@@ -54,14 +54,14 @@ window.addEventListener("load",(e)=>{
     }
 });
 var easy = [[2,null,5,null,null,9,null,null,4],
-[null,null,null,null,null,null,3,null,7],
-[7,null,null,8,5,6,null,1,null],
-[4,5,null,7,null,null,null,null,null],
-[null,null,9,null,null,null,1,null,null],
-[null,null,null,null,null,2,null,8,5],
-[null,2,null,4,1,8,null,null,6],
-[6,null,8,null,null,null,null,null,null],
-[1,null,null,2,null,null,7,null,8]];
+            [null,null,null,null,null,null,3,null,7],
+            [7,null,null,8,5,6,null,1,null],
+            [4,5,null,7,null,null,null,null,null],
+            [null,null,9,null,null,null,1,null,null],
+            [null,null,null,null,null,2,null,8,5],
+            [null,2,null,4,1,8,null,null,6],
+            [6,null,8,null,null,null,null,null,null],
+            [1,null,null,2,null,null,7,null,8]];
 
 easybutton.addEventListener("click",(e)=>{
 	h3.innerHTML = "";
@@ -92,14 +92,14 @@ easybutton.addEventListener("click",(e)=>{
     }
 });
 var medium = [[null,null,6,null,9,null,2,null,null],
-            [null,null,null,7,null,2,null,null,null],
-            [null,9,null,5,null,8,null,7,null],
-            [9,null,null,null,3,null,null,null,6],
-            [7,5,null,null,null,null,null,1,9],
-            [1,null,null,null,4,null,null,null,5],
-            [null,1,null,3,null,9,null,8,null],
-            [null,null,null,2,null,1,null,null,null],
-            [null,null,9,null,8,null,1,null,null]];
+              [null,null,null,7,null,2,null,null,null],
+              [null,9,null,5,null,8,null,7,null],
+              [9,null,null,null,3,null,null,null,6],
+              [7,5,null,null,null,null,null,1,9],
+              [1,null,null,null,4,null,null,null,5],
+              [null,1,null,3,null,9,null,8,null],
+              [null,null,null,2,null,1,null,null,null],
+              [null,null,9,null,8,null,1,null,null]];
 
 var mediumbutton = document.querySelector(".medium");
 
@@ -318,7 +318,6 @@ function highlight(e)
 e.target.style.backgroundColor = 'aliceblue';
     	    
 }
-
 
 //Validation
 
